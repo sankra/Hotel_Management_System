@@ -3,6 +3,7 @@
 import os
 import sys
 
+#main function that calls the django framework
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "hms.settings")
     try:
