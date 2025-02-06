@@ -1,3 +1,4 @@
+#modules imported
 from django.contrib import admin
 from django.urls import path
 from selection import views
@@ -5,6 +6,7 @@ from selection import views
 from django.conf import settings
 
 
+#url patters for accessing the application
 urlpatterns = [
     path('admin/', admin.site.urls),
     # url(r'^', include(('selection.urls', 'selection'), namespace='selection')),
