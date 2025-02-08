@@ -26,6 +26,7 @@ SECRET_KEY = '_)q%hqdkn%*3*2$%#h87g3p)-kt-0oiw+wt5bxi6dr4gb&ge)h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+#These are the allowed hosts for accessing the hotel Management Application
 ALLOWED_HOSTS = ['127.0.0.1', '172.16.158.196']
 
 AUTH_USER_MODEL = 'selection.User'
