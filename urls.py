@@ -47,4 +47,5 @@ urlpatterns = [
     path('BH5_Floor5/', views.BH5_Floor5, name='BH5_Floor5'),
     path('BH5_Floor6/', views.BH5_Floor6, name='BH5_Floor6'),
     path('login/leave', views.user_leave, name='leave_status'),
+    #path('login/release', views.user_release, name='release_status'),
 ]
