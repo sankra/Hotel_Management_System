@@ -1,3 +1,4 @@
+#import the necessary code from other directories
 from django.contrib import admin
 from django.urls import path
 from selection import views
