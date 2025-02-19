@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
+#import the required modules.
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -31,6 +32,7 @@ AUTH_USER_MODEL = 'selection.User'
 
 # Application definition
 
+#Required applications for the main application
 INSTALLED_APPS = [
     'guest',
     'django.contrib.admin',
